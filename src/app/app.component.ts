@@ -30,9 +30,10 @@ export class AppComponent {
   isExpanded = true;
   menuItems = [
     { path: '/dashboard', title: 'Dashboard', icon: 'dashboard' },
+    { path: '/clients', title: 'Clients', icon: 'people_outline' },
     { path: '/inventory', title: 'Inventory', icon: 'inventory_2' },
     { path: '/orders', title: 'Orders', icon: 'shopping_cart' },
-    { path: '/suppliers', title: 'Suppliers', icon: 'group' }
+    { path: '/suppliers', title: 'Suppliers', icon: 'group' },
   ];
 
   toggleSidenav() {
